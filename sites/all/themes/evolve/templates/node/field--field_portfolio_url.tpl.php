@@ -4,7 +4,7 @@
   <?php endif; ?>
   <div class="field-items"<?php print $content_attributes; ?>>
     <?php foreach ($items as $delta => $item): ?>
-    <a href="<?php print render($item); ?>" class="dexp-shortcodes-button btn line-color btn-link"><?php print t('Read the Report');?> <i class="fa fa-arrow-right"></i></a>
+    <a href="<?php print render($item); ?>" class="dexp-shortcodes-button btn line-color btn-link"><?php print t('Download the Report');?> <i class="fa fa-arrow-right"></i></a>
     <?php endforeach; ?>
   </div>
 </div>
